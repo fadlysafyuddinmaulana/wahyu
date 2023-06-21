@@ -1,0 +1,10 @@
+Snackbar.show({
+              Text: 'Berhasil di Simpan',
+              duration: Snackbar.LENGTH_INDEFINITE,
+              action: {
+                Text: 'UNDO',
+                onPress: () => {
+                  Alert.alert('Success', 'Snacbar action');
+                },
+              },
+            })
